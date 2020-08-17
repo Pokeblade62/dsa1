@@ -1,0 +1,20 @@
+<html>
+<head>
+    <title>Registered</title>
+    <h1>Registered</h1>
+</head>
+  <body>
+    <form action="/registered" method="post">
+      <button type="submit">Show Registered</button>
+    </form>
+    <% for(let i=0; i<hehe.length;i++){ %>
+<ul>
+   <li><%=hehe[i].name%>=<%=hehe[i].seat%></li>
+</ul>
+    <% } %>
+
+    <form action="/lkl" method="post">
+      <button type="submit" name="button">Go Back</button>
+    </form>
+  </body>
+</html>
